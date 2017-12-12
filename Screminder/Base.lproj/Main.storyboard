@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First LaunchVC-->
+        <scene sceneID="e0b-es-vQh">
+            <objects>
+                <viewController storyboardIdentifier="FirstLaunchVC" id="60a-sS-KV4" customClass="FirstLaunchVC" customModule="Screminder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j5v-5Y-0k7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rsr-yV-KsX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="dLQ-QN-tdT">
+                                <rect key="frame" x="168" y="615" width="39" height="37"/>
+                                <color key="currentPageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yh1-zm-Yt7" firstAttribute="bottom" secondItem="dLQ-QN-tdT" secondAttribute="bottom" constant="15" id="Bli-BK-sEE"/>
+                            <constraint firstItem="Yh1-zm-Yt7" firstAttribute="bottom" secondItem="Rsr-yV-KsX" secondAttribute="bottom" id="CHw-1o-Fme"/>
+                            <constraint firstItem="dLQ-QN-tdT" firstAttribute="centerX" secondItem="j5v-5Y-0k7" secondAttribute="centerX" id="CYH-z9-04e"/>
+                            <constraint firstItem="Yh1-zm-Yt7" firstAttribute="trailing" secondItem="Rsr-yV-KsX" secondAttribute="trailing" id="M4F-8K-7jL"/>
+                            <constraint firstItem="Rsr-yV-KsX" firstAttribute="leading" secondItem="Yh1-zm-Yt7" secondAttribute="leading" id="lpG-H3-BrB"/>
+                            <constraint firstItem="Rsr-yV-KsX" firstAttribute="top" secondItem="Yh1-zm-Yt7" secondAttribute="top" constant="-20" id="sDn-GQ-E8D"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yh1-zm-Yt7"/>
+                    </view>
+                    <connections>
+                        <outlet property="featurePageControl" destination="dLQ-QN-tdT" id="3Os-1S-Gcf"/>
+                        <outlet property="futureScrollView" destination="Rsr-yV-KsX" id="keT-w4-oBS"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="homeFromStart" id="L9D-03-O0F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fh2-IZ-YBE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="-633"/>
+        </scene>
+        <!--MainVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainVC" id="BYZ-38-t0r" customClass="MainVC" customModule="Screminder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MainVC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVx-uF-FMq">
+                                <rect key="frame" x="166" y="323" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="136"/>
+        </scene>
+    </scenes>
+</document>
