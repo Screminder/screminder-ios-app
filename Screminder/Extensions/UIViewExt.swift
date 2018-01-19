@@ -8,14 +8,16 @@
 
 import UIKit
 
+@IBDesignable
+
 class UIViewExt: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override func awakeFromNib() {
+        self.layer.shadowRadius = 10
+        self.layer.shadowOpacity = 0.5
+        self.layer.shadowColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+        self.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 0.3463083187)
+        self.layer.borderWidth = 1.0
     }
-    */
 
 }

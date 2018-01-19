@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class TimeService{
+    static let instance = TimeService()
+    
+    var time:Time!
+}

@@ -13,23 +13,28 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        var firstLaunchViewController: FirstLaunchVC = mainStoryboard.instantiateViewController(withIdentifier: "FirstLaunchVC") as! FirstLaunchVC
+        
         var mainViewController: MainVC = mainStoryboard.instantiateViewController(withIdentifier: "MainVC") as! MainVC
+        
+        let firstPageVC: FirstPageVC = mainStoryboard.instantiateViewController(withIdentifier: "FirstPageVC") as! FirstPageVC
+        
         if UIApplication.isFirstLaunch() == true{
             
             
-            self.window?.rootViewController = firstLaunchViewController
+            self.window?.rootViewController = firstPageVC
         }
         else{
             self.window?.rootViewController = mainViewController
         }
         self.window?.makeKeyAndVisible()
+        
         
         return true
     }

@@ -13,12 +13,52 @@
 		CE01FA231FDDECB500B8497D /* Screminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE01FA211FDDECB500B8497D /* Screminder.xcdatamodeld */; };
 		CE01FA251FDDECB500B8497D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE01FA241FDDECB500B8497D /* Assets.xcassets */; };
 		CE01FA281FDDECB500B8497D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE01FA261FDDECB500B8497D /* LaunchScreen.storyboard */; };
-		CE01FA311FDDEF2900B8497D /* FirstLaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01FA301FDDEF2900B8497D /* FirstLaunchVC.swift */; };
 		CE01FA341FDDF34D00B8497D /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01FA331FDDF34D00B8497D /* UIApplicationExt.swift */; };
+		CE0223321FF2AAA20072A185 /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0223311FF2AAA20072A185 /* TimeService.swift */; };
+		CE0223341FF4233F0072A185 /* UIViewInCellExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0223331FF4233F0072A185 /* UIViewInCellExt.swift */; };
+		CE0223361FF425150072A185 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0223351FF425150072A185 /* ReminderTableViewCell.swift */; };
 		CE0CC00C1FDED22B00F1969F /* FirstImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0CC00B1FDED22B00F1969F /* FirstImage.xib */; };
 		CE0CC00E1FDED28700F1969F /* ImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0CC00D1FDED28700F1969F /* ImageViews.swift */; };
+		CE0DBCA71FFB9FF100220EE8 /* iphone_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE0DBCA61FFB9FF100220EE8 /* iphone_alarm.mp3 */; };
+		CE1555071FE0723300067AB0 /* FirstPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1555061FE0723300067AB0 /* FirstPageVC.swift */; };
 		CE64F5E71FE008E900080DA2 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64F5E61FE008E900080DA2 /* UIViewControllerExt.swift */; };
+		CE91DC1E1FF907ED00BC2982 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91DC1D1FF907ED00BC2982 /* ReminderModel.swift */; };
+		CE91DC211FF9682500BC2982 /* ViewScreminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91DC1F1FF9682500BC2982 /* ViewScreminderViewController.swift */; };
+		CE91DC221FF9682500BC2982 /* ViewScreminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE91DC201FF9682500BC2982 /* ViewScreminderViewController.xib */; };
+		CEA26E5F1FFF655B00EFBDF0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA26E5D1FFF655B00EFBDF0 /* AddViewController.swift */; };
+		CEA26E601FFF655B00EFBDF0 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA26E5E1FFF655B00EFBDF0 /* AddViewController.xib */; };
+		CEA26E622000DA7B00EFBDF0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA26E612000DA7B00EFBDF0 /* RoundButton.swift */; };
+		CED2E7121FE1765500EB04CF /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2E7111FE1765500EB04CF /* UIViewExt.swift */; };
+		CED2E71A1FE1CD4400EB04CF /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2E7191FE1CD4400EB04CF /* ShareViewController.swift */; };
+		CED2E71D1FE1CD4400EB04CF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED2E71B1FE1CD4400EB04CF /* MainInterface.storyboard */; };
+		CED2E7211FE1CD4400EB04CF /* ShareScreminder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CED2E7171FE1CD4300EB04CF /* ShareScreminder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CED2E7271FE1D28C00EB04CF /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2E7261FE1D28C00EB04CF /* TimeModel.swift */; };
+		CED2E7291FE1D3AA00EB04CF /* ShareSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2E7281FE1D3AA00EB04CF /* ShareSelectViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED2E71F1FE1CD4400EB04CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE01FA0F1FDDECB500B8497D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED2E7161FE1CD4300EB04CF;
+			remoteInfo = ShareScreminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CED2E7251FE1CD4400EB04CF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CED2E7211FE1CD4400EB04CF /* ShareScreminder.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CE01FA171FDDECB500B8497D /* Screminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,15 +69,39 @@
 		CE01FA241FDDECB500B8497D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE01FA271FDDECB500B8497D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE01FA291FDDECB500B8497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE01FA301FDDEF2900B8497D /* FirstLaunchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchVC.swift; sourceTree = "<group>"; };
 		CE01FA331FDDF34D00B8497D /* UIApplicationExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExt.swift; sourceTree = "<group>"; };
+		CE0223311FF2AAA20072A185 /* TimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeService.swift; sourceTree = "<group>"; };
+		CE0223331FF4233F0072A185 /* UIViewInCellExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewInCellExt.swift; sourceTree = "<group>"; };
+		CE0223351FF425150072A185 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
 		CE0CC00B1FDED22B00F1969F /* FirstImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstImage.xib; sourceTree = "<group>"; };
 		CE0CC00D1FDED28700F1969F /* ImageViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViews.swift; sourceTree = "<group>"; };
+		CE0DBCA61FFB9FF100220EE8 /* iphone_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_alarm.mp3; sourceTree = "<group>"; };
+		CE1555061FE0723300067AB0 /* FirstPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageVC.swift; sourceTree = "<group>"; };
 		CE64F5E61FE008E900080DA2 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		CE91DC1D1FF907ED00BC2982 /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
+		CE91DC1F1FF9682500BC2982 /* ViewScreminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewScreminderViewController.swift; sourceTree = "<group>"; };
+		CE91DC201FF9682500BC2982 /* ViewScreminderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewScreminderViewController.xib; sourceTree = "<group>"; };
+		CEA26E5D1FFF655B00EFBDF0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CEA26E5E1FFF655B00EFBDF0 /* AddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		CEA26E612000DA7B00EFBDF0 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		CED2E7111FE1765500EB04CF /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		CED2E7171FE1CD4300EB04CF /* ShareScreminder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareScreminder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED2E7191FE1CD4400EB04CF /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		CED2E71C1FE1CD4400EB04CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CED2E71E1FE1CD4400EB04CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED2E7261FE1D28C00EB04CF /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		CED2E7281FE1D3AA00EB04CF /* ShareSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSelectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE01FA141FDDECB500B8497D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2E7141FE1CD4300EB04CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				CE01FA191FDDECB500B8497D /* Screminder */,
+				CED2E7181FE1CD4400EB04CF /* ShareScreminder */,
 				CE01FA181FDDECB500B8497D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				CE01FA171FDDECB500B8497D /* Screminder.app */,
+				CED2E7171FE1CD4300EB04CF /* ShareScreminder.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +132,8 @@
 		CE01FA191FDDECB500B8497D /* Screminder */ = {
 			isa = PBXGroup;
 			children = (
+				CE0DBCA51FFB9EF600220EE8 /* ExternalFiles */,
+				CE91DC1C1FF907C900BC2982 /* Models */,
 				CE0CC00F1FDED28B00F1969F /* Views */,
 				CE0CC00A1FDED1C000F1969F /* XIBs */,
 				CE01FA321FDDF30E00B8497D /* Extensions */,
@@ -84,7 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				CE01FA1C1FDDECB500B8497D /* MainVC.swift */,
-				CE01FA301FDDEF2900B8497D /* FirstLaunchVC.swift */,
+				CE1555061FE0723300067AB0 /* FirstPageVC.swift */,
+				CE91DC1F1FF9682500BC2982 /* ViewScreminderViewController.swift */,
+				CEA26E5D1FFF655B00EFBDF0 /* AddViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -94,6 +164,8 @@
 			children = (
 				CE01FA331FDDF34D00B8497D /* UIApplicationExt.swift */,
 				CE64F5E61FE008E900080DA2 /* UIViewControllerExt.swift */,
+				CED2E7111FE1765500EB04CF /* UIViewExt.swift */,
+				CE0223331FF4233F0072A185 /* UIViewInCellExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -101,6 +173,8 @@
 		CE0CC00A1FDED1C000F1969F /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				CEA26E5E1FFF655B00EFBDF0 /* AddViewController.xib */,
+				CE91DC201FF9682500BC2982 /* ViewScreminderViewController.xib */,
 				CE0CC00B1FDED22B00F1969F /* FirstImage.xib */,
 			);
 			path = XIBs;
@@ -110,8 +184,39 @@
 			isa = PBXGroup;
 			children = (
 				CE0CC00D1FDED28700F1969F /* ImageViews.swift */,
+				CE0223351FF425150072A185 /* ReminderTableViewCell.swift */,
+				CEA26E612000DA7B00EFBDF0 /* RoundButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE0DBCA51FFB9EF600220EE8 /* ExternalFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CE0DBCA61FFB9FF100220EE8 /* iphone_alarm.mp3 */,
+			);
+			path = ExternalFiles;
+			sourceTree = "<group>";
+		};
+		CE91DC1C1FF907C900BC2982 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE91DC1D1FF907ED00BC2982 /* ReminderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CED2E7181FE1CD4400EB04CF /* ShareScreminder */ = {
+			isa = PBXGroup;
+			children = (
+				CED2E7191FE1CD4400EB04CF /* ShareViewController.swift */,
+				CED2E71B1FE1CD4400EB04CF /* MainInterface.storyboard */,
+				CED2E71E1FE1CD4400EB04CF /* Info.plist */,
+				CED2E7261FE1D28C00EB04CF /* TimeModel.swift */,
+				CED2E7281FE1D3AA00EB04CF /* ShareSelectViewController.swift */,
+				CE0223311FF2AAA20072A185 /* TimeService.swift */,
+			);
+			path = ShareScreminder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,15 +229,34 @@
 				CE01FA131FDDECB500B8497D /* Sources */,
 				CE01FA141FDDECB500B8497D /* Frameworks */,
 				CE01FA151FDDECB500B8497D /* Resources */,
+				CED2E7251FE1CD4400EB04CF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CED2E7201FE1CD4400EB04CF /* PBXTargetDependency */,
 			);
 			name = Screminder;
 			productName = Screminder;
 			productReference = CE01FA171FDDECB500B8497D /* Screminder.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CED2E7161FE1CD4300EB04CF /* ShareScreminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED2E7221FE1CD4400EB04CF /* Build configuration list for PBXNativeTarget "ShareScreminder" */;
+			buildPhases = (
+				CED2E7131FE1CD4300EB04CF /* Sources */,
+				CED2E7141FE1CD4300EB04CF /* Frameworks */,
+				CED2E7151FE1CD4300EB04CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareScreminder;
+			productName = ShareScreminder;
+			productReference = CED2E7171FE1CD4300EB04CF /* ShareScreminder.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -145,6 +269,10 @@
 				ORGANIZATIONNAME = "Abdulsamad Aliyu";
 				TargetAttributes = {
 					CE01FA161FDDECB500B8497D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CED2E7161FE1CD4300EB04CF = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -164,6 +292,7 @@
 			projectRoot = "";
 			targets = (
 				CE01FA161FDDECB500B8497D /* Screminder */,
+				CED2E7161FE1CD4300EB04CF /* ShareScreminder */,
 			);
 		};
 /* End PBXProject section */
@@ -173,10 +302,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE91DC221FF9682500BC2982 /* ViewScreminderViewController.xib in Resources */,
 				CE01FA281FDDECB500B8497D /* LaunchScreen.storyboard in Resources */,
 				CE01FA251FDDECB500B8497D /* Assets.xcassets in Resources */,
+				CE0DBCA71FFB9FF100220EE8 /* iphone_alarm.mp3 in Resources */,
 				CE0CC00C1FDED22B00F1969F /* FirstImage.xib in Resources */,
+				CEA26E601FFF655B00EFBDF0 /* AddViewController.xib in Resources */,
 				CE01FA201FDDECB500B8497D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2E7151FE1CD4300EB04CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2E71D1FE1CD4400EB04CF /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,16 +328,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE01FA1D1FDDECB500B8497D /* MainVC.swift in Sources */,
+				CE91DC1E1FF907ED00BC2982 /* ReminderModel.swift in Sources */,
+				CEA26E622000DA7B00EFBDF0 /* RoundButton.swift in Sources */,
 				CE01FA231FDDECB500B8497D /* Screminder.xcdatamodeld in Sources */,
+				CE1555071FE0723300067AB0 /* FirstPageVC.swift in Sources */,
+				CE0223341FF4233F0072A185 /* UIViewInCellExt.swift in Sources */,
 				CE0CC00E1FDED28700F1969F /* ImageViews.swift in Sources */,
-				CE01FA311FDDEF2900B8497D /* FirstLaunchVC.swift in Sources */,
+				CED2E7121FE1765500EB04CF /* UIViewExt.swift in Sources */,
+				CE91DC211FF9682500BC2982 /* ViewScreminderViewController.swift in Sources */,
 				CE01FA1B1FDDECB500B8497D /* AppDelegate.swift in Sources */,
 				CE64F5E71FE008E900080DA2 /* UIViewControllerExt.swift in Sources */,
 				CE01FA341FDDF34D00B8497D /* UIApplicationExt.swift in Sources */,
+				CEA26E5F1FFF655B00EFBDF0 /* AddViewController.swift in Sources */,
+				CE0223361FF425150072A185 /* ReminderTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED2E7131FE1CD4300EB04CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0223321FF2AAA20072A185 /* TimeService.swift in Sources */,
+				CED2E7271FE1D28C00EB04CF /* TimeModel.swift in Sources */,
+				CED2E7291FE1D3AA00EB04CF /* ShareSelectViewController.swift in Sources */,
+				CED2E71A1FE1CD4400EB04CF /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED2E7201FE1CD4400EB04CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED2E7161FE1CD4300EB04CF /* ShareScreminder */;
+			targetProxy = CED2E71F1FE1CD4400EB04CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE01FA1E1FDDECB500B8497D /* Main.storyboard */ = {
@@ -214,6 +380,14 @@
 				CE01FA271FDDECB500B8497D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CED2E71B1FE1CD4400EB04CF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED2E71C1FE1CD4400EB04CF /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -329,6 +503,7 @@
 		CE01FA2D1FDDECB500B8497D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PU47LLVW7;
@@ -344,6 +519,7 @@
 		CE01FA2E1FDDECB500B8497D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PU47LLVW7;
@@ -351,6 +527,36 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bynatives.Screminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED2E7231FE1CD4400EB04CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PU47LLVW7;
+				INFOPLIST_FILE = ShareScreminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bynatives.Screminder.ShareScreminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED2E7241FE1CD4400EB04CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PU47LLVW7;
+				INFOPLIST_FILE = ShareScreminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bynatives.Screminder.ShareScreminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,6 +579,15 @@
 			buildConfigurations = (
 				CE01FA2D1FDDECB500B8497D /* Debug */,
 				CE01FA2E1FDDECB500B8497D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED2E7221FE1CD4400EB04CF /* Build configuration list for PBXNativeTarget "ShareScreminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED2E7231FE1CD4400EB04CF /* Debug */,
+				CED2E7241FE1CD4400EB04CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
